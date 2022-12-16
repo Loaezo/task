@@ -3,9 +3,7 @@
 
 def remove_zeros(my_list):
     """Function that removes the zeroes using O(1) of extra memory"""
-    result = []
     for number in my_list:
-        if number != 0:
-            result.append(number)
-    my_list[:] = result
+        if number == 0:
+            my_list.remove(number)
     return my_list
