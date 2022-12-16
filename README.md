@@ -1,4 +1,4 @@
-# task
+# Practicum's task
 
 This repository includes only two small scripts:
 
